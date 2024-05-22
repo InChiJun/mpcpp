@@ -1,10 +1,21 @@
 #include <iostream>
+#include "Circle.h"
+
+using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    std::cout<<"Hello World!!\n";
-    std::cout<<"안녕하세요"<<std::endl;
-    std::cout<<"반갑습니다."<<std::endl;
+    {
+        Circle donut;
+        Circle pizza(30.0);
+        cout << pizza.getArea() << endl;
+        cout << donut.getArea() << endl;
+        cout << e.getArea() << endl;
+    }
+    Rectangle box(4, 40);
+    Rectangle phone(10, 20);
+    cout << box.getArea() << endl;
+    cout << phone.getArea() << endl;
     return 0;
 }
 

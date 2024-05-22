@@ -16,14 +16,8 @@ class Ecllipse : public Circle{
     private:
         int width = 0;
     public:
-        Ecllipse(int r, int w){
-            setRadius(r);
-            setWidth(w);
-        };
-        double getArea(){
-            return 3.14 * getRadius() * getRadius();
-        };
-        void setWidth(int w){
-            width = w;
-        }
-}
+        Ecllipse(int r, int w);
+        double getArea();
+        void setWidth(int w);
+        ~Ecllipse();
+};
