@@ -3,6 +3,11 @@
 #include "Rectangle.h"
 using namespace std;
 
+Circle getCircle(){
+    Circle tmp(30);
+    return tmp;
+}
+
 int main(int argc, char const *argv[])
 {
     {
